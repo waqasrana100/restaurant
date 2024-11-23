@@ -5,19 +5,32 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/(.*)", // Match all routes
+        source: "/:path*",
         headers: [
           {
-            key: "Access-Control-Allow-Origin",
-            value: "*", // Adjust to specific origins as needed
+            key: "Content-Security-Policy",
+            value:
+              "upgrade-insecure-requests; default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https:;",
           },
           {
-            key: "Access-Control-Allow-Methods",
-            value: "GET, POST, OPTIONS", // Add other methods as needed
+            key: "Strict-Transport-Security",
+            value: "max-age=31536000; includeSubDomains",
           },
           {
-            key: "Access-Control-Allow-Headers",
-            value: "X-Requested-With, Content-Type, Authorization", // Add necessary headers
+            key: "X-Content-Type-Options",
+            value: "nosniff",
+          },
+          {
+            key: "X-Frame-Options",
+            value: "DENY",
+          },
+          {
+            key: "X-XSS-Protection",
+            value: "1; mode=block",
+          },
+          {
+            key: "Referrer-Policy",
+            value: "strict-origin-when-cross-origin",
           },
         ],
       },
