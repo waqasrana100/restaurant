@@ -1,0 +1,47 @@
+{
+  "index": {
+    "nav": {
+      "corporateOrdering": "Geschäftskunden",
+      "becomeACourier": "Fahrer werden",
+      "partnerWithUs": "Partner werden",
+      "login": "Anmelden",
+      "logoAlt": "Logo",
+      "logout": "Abmelden"
+    },
+    "hero": {
+      "title": "Essen und mehr bestellen",
+      "subtitle": "Restaurants und Geschäfte in deiner Nähe",
+      "searchPlaceholder": "Adresse eingeben",
+      "searchButton": "Suchen"
+    },
+    "featured": {
+      "title": "Beliebte Restaurants",
+      "deliveryTime": "{{time}} Min"
+    },
+    "howItWorks": {
+      "title": "So bestellst du",
+      "steps": {
+        "location": {
+          "title": "Sag uns wo du bist",
+          "description": "Wir zeigen dir Geschäfte und Restaurants in deiner Nähe."
+        },
+        "search": {
+          "title": "Finde was du möchtest",
+          "description": "Suche nach Gerichten, Geschäften oder Küchen."
+        },
+        "order": {
+          "title": "Bestelle zur Lieferung oder Abholung",
+          "description": "Wir halten dich über den Status deiner Bestellung auf dem Laufenden."
+        }
+      }
+    },
+    "landing": {
+      "welcomeMessage": "Willkommen bei",
+      "brandName": "GiessenToGo",
+      "heroText": "Begib dich auf eine kulinarische Reise, bei der Geschmäcker tanzen und Erinnerungen entstehen. Dein gastronomisches Abenteuer erwartet dich!"
+    },
+    "common": {
+      "cancel": "Abbrechen"
+    }
+  }
+}

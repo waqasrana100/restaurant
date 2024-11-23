@@ -1,0 +1,47 @@
+{
+  "index": {
+    "nav": {
+      "corporateOrdering": "Corporate Ordering",
+      "becomeACourier": "Become a courier",
+      "partnerWithUs": "Partner with us",
+      "login": "Log in",
+      "logoAlt": "Logo",
+      "logout": "Log out"
+    },
+    "hero": {
+      "title": "Order food and more",
+      "subtitle": "Restaurants and shops delivering near you",
+      "searchPlaceholder": "Enter your address",
+      "searchButton": "Search"
+    },
+    "featured": {
+      "title": "Featured Restaurants",
+      "deliveryTime": "{{time}} min"
+    },
+    "howItWorks": {
+      "title": "How to order",
+      "steps": {
+        "location": {
+          "title": "Tell us where you are",
+          "description": "We'll show you stores and restaurants nearby you can order from."
+        },
+        "search": {
+          "title": "Find what you want",
+          "description": "Search for items or dishes, businesses or cuisines."
+        },
+        "order": {
+          "title": "Order for delivery or collection",
+          "description": "We'll update you on your order's progress."
+        }
+      }
+    },
+    "landing": {
+      "welcomeMessage": "Welcome to",
+      "brandName": "GiessenToGo",
+      "heroText": "Embark on a culinary journey where flavors dance and memories are made. Your gastronomic adventure awaits!"
+    },
+    "common": {
+      "cancel": "Cancel"
+    }
+  }
+}
