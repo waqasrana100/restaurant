@@ -29,7 +29,7 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: "/api/:path*", // Matches all API routes
+        source: "/(.*)", // Matches all API routes
         destination: "http://16.170.247.109/:path*", // Proxies requests to the base URL
       },
     ];
