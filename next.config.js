@@ -26,6 +26,14 @@ const nextConfig = {
   images: {
     domains: ["16.170.247.109"], // Add your hostname here
   },
+  async rewrites() {
+    return [
+      {
+        source: "/api/:path*", // Matches all API routes
+        destination: "http://16.170.247.109/:path*", // Proxies requests to the base URL
+      },
+    ];
+  },
   ignoreBuildErrors: true,
   typescript: {
     ignoreBuildErrors: true,
