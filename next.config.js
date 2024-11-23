@@ -24,15 +24,7 @@ const nextConfig = {
     ];
   },
   images: {
-    domains: ["16.170.247.109"], // Add your hostname here
-  },
-  async rewrites() {
-    return [
-      {
-        source: "/(.*)", // Matches all API routes
-        destination: "http://16.170.247.109/:path*", // Proxies requests to the base URL
-      },
-    ];
+    domains: ["16.170.247.109"],
   },
   ignoreBuildErrors: true,
   typescript: {

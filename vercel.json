@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    {
+      "source": "/main_menu_category",
+      "destination": "http://16.170.247.109/main_menu_category/"
+    },
+    {
+      "source": "/login",
+      "destination": "http://16.170.247.109/login/"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "http://16.170.247.109/:path*"
+    }
+  ]
+}
