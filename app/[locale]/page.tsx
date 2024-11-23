@@ -78,6 +78,7 @@ export default function Home() {
                 transition={{ duration: 0.6 }}
               >
                 <Utensils className="w-16 h-16 text-primary mb-6" />
+
               </motion.div>
               <motion.h1
                 className="text-5xl md:text-7xl font-extrabold mb-6 text-foreground"
