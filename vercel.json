@@ -1,4 +1,4 @@
 {
   "source": "/(.*)",
-  "destination": "http://16.170.247.109/:path*"
+  "destination": "https://16.170.247.109/:path*"
 }
