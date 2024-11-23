@@ -19,7 +19,7 @@
       "deliveryTime": "{{time}} Min"
     },
     "howItWorks": {
-      "title": "So bestellst du",
+      "title": "So bestellst du ",
       "steps": {
         "location": {
           "title": "Sag uns wo du bist",
