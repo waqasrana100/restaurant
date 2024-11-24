@@ -18,7 +18,7 @@ import { Switch } from "@/components/ui/switch"
 import { getRestaurants } from "@/services/api"
 
 export default function RestaurantsPage() {
-    const t = useTranslations("restaurants");
+    // const t = useTranslations("restaurants");
     const [isOpenOnly, setIsOpenOnly] = useState(false);
     const [searchQuery, setSearchQuery] = useState("");
     const [restaurants, setRestaurants] = useState<Restaurant[]>([]); // State for restaurant data

@@ -41,7 +41,18 @@
       "heroText": "Begib dich auf eine kulinarische Reise, bei der Geschmäcker tanzen und Erinnerungen entstehen. Dein gastronomisches Abenteuer erwartet dich!"
     },
     "common": {
-      "cancel": "Abbrechen"
-    }
+      "cancel": "Abbrechen",
+      "change": "Ändern"
+    },
+    "delivery": "Lieferung",
+    "pickup": "Abholung",
+    "restaurants": "Restaurants",
+    "searchPlaceholder": "Restaurants und Gerichte",
+    "openNow": "Jetzt geöffnet",
+    "sortBy": "Sortieren nach",
+    "distance": "Entfernung",
+    "rating": "Bewertung",
+    "deliveryTime": "Lieferzeit",
+    "noRestaurants": "Keine Restaurants gefunden"
   }
 }

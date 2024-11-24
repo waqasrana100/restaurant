@@ -41,7 +41,18 @@
       "heroText": "Embark on a culinary journey where flavors dance and memories are made. Your gastronomic adventure awaits!"
     },
     "common": {
-      "cancel": "Cancel"
-    }
+      "cancel": "Cancel",
+      "change": "Change"
+    },
+    "delivery": "Delivery",
+    "pickup": "Pickup",
+    "restaurants": "Restaurants",
+    "searchPlaceholder": "Restaurants and Dishes",
+    "openNow": "Open Now",
+    "sortBy": "Sort by",
+    "distance": "Distance",
+    "rating": "Rating",
+    "deliveryTime": "Delivery Time",
+    "noRestaurants": "No restaurants found"
   }
 }
