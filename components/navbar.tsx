@@ -58,14 +58,18 @@ export default function Navbar() {
               whileHover={{ scale: 1.1, rotate: 12 }}
               transition={{ type: 'spring', stiffness: 300 }}
             >
+              <div className="absolute -inset-1 bg-gradient from-primary to-secondary rounded-lg blur opacity-25 group-hover:opacity-75 transition duration-200" />
+
               <Image
                 src="/logo.png"
                 alt={t('nav.logoAlt')}
                 width={50}
                 height={50}
                 objectFit="contain"
-                className="boarder rounded-full"
+                className="relative rounded-lg shadow-xl border border-primary/10 transition-all duration-200 group-hover:shadow-primary/50"
+                style={{ objectFit: 'contain' }}
               />
+
             </motion.div>
           </Link>
 

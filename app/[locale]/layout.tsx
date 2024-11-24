@@ -26,7 +26,7 @@ export async function generateMetadata({ params: { locale } }: Props): Promise<M
   const t = await getTranslations({ locale, namespace: 'Metadata' });
 
   return {
-    title: t('title'),
+    title: 'GiessenToGo',
     description: t('description'),
   };
 }
@@ -60,3 +60,4 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
     </html>
   );
 }
+
