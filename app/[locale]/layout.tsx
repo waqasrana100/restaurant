@@ -22,14 +22,7 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
-export async function generateMetadata({ params: { locale } }: Props): Promise<Metadata> {
-  const t = await getTranslations({ locale, namespace: 'Metadata' });
 
-  return {
-    title: 'GiessenToGo',
-    description: t('description'),
-  };
-}
 
 export default async function LocaleLayout({ children, params: { locale } }: Props) {
   // Enable static rendering
@@ -60,4 +53,3 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
     </html>
   );
 }
-
