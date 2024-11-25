@@ -2,6 +2,7 @@ const withNextIntl = require("next-intl/plugin")();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  ignoreBuildErrors: true,
   async headers() {
     return [
       {
@@ -39,7 +40,7 @@ const nextConfig = {
   images: {
     domains: ["16.170.247.109"],
   },
-  ignoreBuildErrors: true,
+
   typescript: {
     ignoreBuildErrors: true,
   },
